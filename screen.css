@@ -1,0 +1,113 @@
+body{
+   height: 100vh;
+   background-color:pink;
+   box-shadow: inset 2px 0px 85px 24px black;
+}
+ 
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.Laptop-larger,
+.Laptop,
+.Tablet,
+.Mobile{
+    display: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (min-width:0px){
+    body{
+        background-color: rgb(0, 193, 164);
+    }
+    .Mobile{
+        display: block;
+    }
+}
+
+@media screen and (min-width:425px) {
+    body{
+        background-color: rgb(0, 36, 145);
+    }
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    body{
+        background-color: rgb(108, 4, 173);
+    }
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    body{
+        background-color: rgb(206, 220, 2);
+    }
+    .Mobile{
+        display: none;
+    }
+    .Tablet{
+        display: none;
+    }
+    .Laptop{
+        display: none;
+    }
+    .Laptop-larger{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
